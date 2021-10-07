@@ -1,7 +1,7 @@
 En mi caso he usado xamp como servidor para ejecutar y visiualizarlo,en este caso es tan facil como instalarlo https://www.apachefriends.org/es/index.html seguir los pasos
 y en el panel al instalarse pulsar el boton start de apache.
 
-Lo he intentado hacer muy intuitivo y sin que exista manera de perderse o deriar por equivocacion en otros apartados o que sea tedioso,como se pidio lo he echo simple.
+Lo he intentado hacer muy intuitivo y sin que exista manera de perderse o derivar por equivocacion en otros apartados o que sea tedioso,como se pidio lo he echo simple.
 
 En el archivo login.php en sus primeras lineas se tiene especificado el administrador y contraseña con el que entrar,he utilizado la palabra "admin"en ambos casos para que
  no sea ambigua o dificil de acordarse.Si se introduce otros valores la pagina pasa por un condicional que te devuelve un enlaze de vuelta al formulario y un mensaje de error.
