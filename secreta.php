@@ -18,7 +18,8 @@ if (empty($_SESSION["usuario"])) {
 echo "Quieres ver tus codigo?";
 echo "<br>";
     #creamos una funcion que nos proporcione de manera aleatoria los codigos 
-
+    
+    
     function runMyFunction() {
         $entrada = array("1", "2", "3", "4", "5", "6", "7", "8", "9", "0");
         $claves_aleatorias = array_rand($entrada, 7);
